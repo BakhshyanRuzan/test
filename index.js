@@ -26,7 +26,7 @@ let numStr = num.toString();
 
 
 /*let arr = []
-// es funkcian stuguma ete tiv@ parza veradarcnuma
+//  funkcian stuguma ete tiv@ parza veradarcnuma
 function isPrime(j){
     for(let i = 2; i < j; i++){
         if(j % i === 0){
@@ -35,8 +35,7 @@ function isPrime(j){
         return j
     }
 }
-// es funkcian stuguma n-erord parz tiv@ paymani mej grel em vor n*n ic avel chstugi qani vor dranic mec chi kara lini
-// minchev n*n exac bolor tver@ qcum enq arai mej u vekalum enq et arai orinak 3rd parz tiv@
+
 function getNum(n){
     for(let i = 1 ; i < n*n ; i++){
         if(isPrime(i)){
