@@ -25,8 +25,7 @@ let numStr = num.toString();
 
 
 
-/*let arr = []
-//  funkcian stuguma ete tiv@ parza veradarcnuma
+let arr = []
 function isPrime(j){
     for(let i = 2; i < j; i++){
         if(j % i === 0){
