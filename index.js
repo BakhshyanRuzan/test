@@ -1,44 +1,29 @@
 // 1.	Գրել ծրագիր, որը հաշվում է քառանիշ թվերի քանակը, որոնք սիմետրիկ են, օրինակ՝ 1221, 2222, 3443
 
-// let arr = [];
+let arr = [];
 
-// function reverse(num) {
-//   let numStr = num.toString();
+ function reverse(num) {
+let numStr = num.toString();
 
-//   if (num == numStr.split("").reverse().join("")) {
-//     arr.push(num);
-//   }
-// }
+   if (num == numStr.split("").reverse().join("")) {
+     arr.push(num)
+   }
+ }
 
-// for (let index = 1000; index <= 9999; index++) {
-//   reverse(index);
-//   if (index === 9999) {
-//     console.log(arr.length);
-//   }
-// }
+ for (let index = 1000; index <= 9999; index++) {
+   reverse(index);
+   if (index === 9999) {
+     console.log(arr.length)
+   }
+ }
 
-// 2.	Գրել ծրագիր, որը գտնում է “n”-րդ պարզ թիվը, որտեղ n-ը ինչ որ բնական թիվ է։
+ alert(arr.length); //90
 
-// 1.	Գրել ծրագիր, որը հաշվում է քառանիշ թվերի քանակը, որոնք սիմետրիկ են, օրինակ՝ 1221, 2222, 3443
 
-// let arr = [];
-
-// function reverse(num) {
-//   let numStr = num.toString();
-
-//   if (num == numStr.split("").reverse().join("")) {
-//     arr.push(num);
-//   }
-// }
-
-// for (let index = 1000; index <= 9999; index++) {
-//   reverse(index);
-//   if (index === 9999) {
-//     console.log(arr.length);
-//   }
-// }
 
 // 2.	Գրել ծրագիր, որը գտնում է “n”-րդ պարզ թիվը, որտեղ n-ը ինչ որ բնական թիվ է։
+
+
 
 /*let arr = []
 // es funkcian stuguma ete tiv@ parza veradarcnuma
@@ -63,3 +48,7 @@ function getNum(n){
 getNum(3)  
 
 console.log(arr);
+
+
+
+
